@@ -1,9 +1,7 @@
-package com.example.springmongo.demomongo.Models;
+package com.example.springmongo.demomongo.Request;
 
-import org.springframework.data.mongodb.core.mapping.Document;
+public class CreateRequest {
 
-@Document
-public class Book {
 
     private String name;
     private String authorName;
@@ -31,14 +29,5 @@ public class Book {
 
     public void setCost(int cost) {
         this.cost = cost;
-    }
-
-    public Book(String name, String authorName, int cost) {
-        this.name = name;
-        this.authorName = authorName;
-        this.cost = cost;
-    }
-
-    public Book() {
     }
 }
