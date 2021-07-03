@@ -1,3 +1,3 @@
 # spring-mongodb
 
-library-management app (crud apis)
+library-management web-app (crud apis)
